@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>---SALE FEVER---</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<style>
+body {
+font-family: 'Work Sans', sans-serif;
+}
+</style>
+
+<body class="text-black">
+<header class="bg-[#F9F6E2]">
+<section class="max-w-5xl justify-around items-center mx-auto flex flex-col lg:flex-row">
+<section class="text-center">
+<h2 class="font-medium pb-10">---SALE FEVER---</h2>
+<h1 class=" text-3xl lg:text-5xl font-bold  pb-5 lg:pb-16">Purchase TK 200 or above & get <span
+class="text-[#933c7c]">20% off</span> </h1>
+<p>Use Promo Code
+<span class="bg-[#933c7c] p-2 rounded-xl text-white">SELL200</span>
+</p>
+</section>
+<section>
+<img class="h-3/4 pt-5 lg:mx-20" src="./image/Summer 1.png" alt="">
+</section>
+</section>
+</header>
+
+
+
+<main class="bg-[#F8F8F8] pb-20">
+<section class="flex flex-col sm:flex-row-reverse max-w-6xl mx-auto items-start justify-between">
+<article class="sm:mt-52 mt-5 sm:ml-5 ">
+<div class="bg-white rounded-3xl px-1 pb-10  sd:w-[380px]">
+<h1 class="text-3xl px-5 py-8 "> Have coupon?</h1>
+<div class="flex gap-2">
+<input type="text" id="coupon-input" placeholder="Coupon code"
+class="p-3 rounded-xl  ml-3 bg-slate-100">
+<button class="btn text-white bg-[#af80a3] hover:bg-[#933c7c]  " 
+id="btn-apply">Apply</button>
+</div>
+</div>
+
+
+
+
+
+<div class="mt-32 md:w-[380px]  bg-white rounded-3xl px-5 pb-10 md:pl-10">
+<section class="list-decimal pl-2 "><h1 class="  text-2xl pt-10 pb-10  ui-sans-serif   ">
+    1. Home Cooker <br>
+    2. Sports cates <br>
+    3. Home Cooker </h1> 
+
+</section>
+<hr class="w-4/5 text text-[#11111180] ">
+<h3 class="   md:mr-10 py-5 ">Estimated Price : <span id="estimated-price"
+class="text-[#11111180]">00</span></h3>
+<h3 class="text-xl py-5">Discount :<span id="discount-price" class="text-[#11111180]">00</span></h3>
+<h3  class=" text-xl py-5">Total Price : <span id="total-price" class="text-[#11111180]">00</span></h3>
+<hr class="w-4/5 text text-[#11111180]"> <br>
+<button id="make-purchase"  class="btn w-4/5 text-white bg-[#af80a3] hover:bg-[#933c7c] "  onclick="my_modal_5.showModal()">Make Purchase</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle text-center">
+<form method="dialog" class="modal-box flex flex-col justify-center items-center" >
+<img  class="w-2/4 " src="./images/congo.png" alt="">
+<h3 class="font-bold text-3xl">Congratulations!</h3>
+<p class="py-4">You have Purchased those products!</p>
+<div class="modal-action flex  justify-center items-center">
+<button class="btn btn  text-white bg-[#af80a3] hover:bg-[#933c7c]  text-center" id="go-home">Go Home</button>
+</div>
+</form>
+</dialog>
+
+
+
+</div>
+</article>
+<sectionv class="">
+<article>
+<h1 class="text-3xl font-semibold pt-32 pb-10 px-10 ">Kitchenware</h1>
+<article class="grid grid-cols-1 lg:grid-cols-3  max-w-5xl mx-10 gap-5">
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50  " onclick="cardsOnclick('K. Accessories',21.00)">
+<div class="px-10 pt-5 pb-1 bg-gray-200 m-5 ">
+<img src="./image/5210242_14551 1.png" alt="Shoes" class="cursor-pointer mb-8" />
+</div>
+<div class="card-body items-center text-center ">
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+<h2 class="card-title cursor-pointer">K. Accessories</h2>
+<p class="text-[#11111180]"><span class="money">21.00</span> TK</p>
+
+</div>
+</div>
+
+
+
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('K. Accessories','25.00')">
+<div class="px-10 pt-10 pb-1 bg-gray-200 m-5">
+<img src="./image/4999500_13370 1 (1).png" alt="Shoes" class="cursor-pointer mb-8" />
+
+</div>
+<div class="card-body items-center text-center">
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+<h2 class="card-title cursor-pointer">K. Accessories</h2>
+<p class="text-[#11111180]"><span class="money">25.00</span> TK</p>
+</div>
+</div>
+
+
+
+
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('Home Cooker','39.00')">
+
+<div class="px-10 pt-10 pb-1 bg-gray-200 m-5">
+<img src="./image/5037619_13725 1.png" alt="Shoes" class=" cursor-pointer mb-8" />
+
+</div>
+<div class="card-body items-center text-center">
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+
+<h2 class="card-title cursor-pointer">Home Cooker</h2>
+<p class="text-[#11111180]"><span class="money">39.00 </span> TK</p>
+
+</div>
+</div>
+
+
+
+
+</article>
+<h1 class="text-3xl font-semibold pt-20 pb-10  px-10 ">Sportswear</h1>
+<article class="grid grid-cols-1 lg:grid-cols-3  max-w-5xl mx-10 gap-5">
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('Sports Back Cap','60.00')">
+<div class="px-10 pt-10 pb-6 bg-gray-200 m-5">
+<img src="./image/black_cap_isolated_on_background 1.png" alt="Shoes" class=" cursor-pointer mb-8" />
+</div>
+
+<div class="card-body items-center text-center">
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+<h2 class="card-title cursor-pointer">Sports Back Cap</h2>
+<p class="text-[#11111180]"><span class="money">60.00 </span> TK</p>
+
+</div>
+</div>
+
+
+
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('Full Jersey Set','124.00')">
+<div class="px-10 pt-5 bg-gray-200 m-5">
+<img src="./image/18438840_cycling_jersey_mockup_front_side_view 1.png" alt="Shoes" class=" cursor-pointer mb-8" />
+</div>
+
+<div class="card-body items-center text-center">
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+<h2 class="card-title cursor-pointer">Full Jersey Set</h2>
+<p class="text-[#11111180]"><span class="money">124.00 </span> TK</p>
+</div>
+</div>
+
+
+
+
+
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50" onclick="cardsOnclick('Sports cates','70.00')">
+<div class="px-10 pt-10  bg-gray-200 m-5">
+<img src="./image/pngwing 1 (1).png" alt="Shoes" class="  cursor-pointer mb-8" />
+</div>
+
+<div class="card-body items-center text-center">
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+
+<h2 class="card-title  cursor-pointer">Sports cates</h2>
+<p class="text-[#11111180]"> <span class="money">70.00 </span>TK</p>
+</div>
+</div>
+</article>
+
+
+
+
+
+
+<h1 class="text-3xl font-semibold pt-20 pb-10 px-10  ">Furniture</h1>
+<article class="grid grid-cols-1 lg:grid-cols-3  max-w-5xl mx-auto gap-5 px-10">
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('Single Relax Chair','110.00')">
+<div class="px-10 pt-10 bg-gray-200 m-5">
+<img src="./image/26867437_51 1.png" alt="Shoes" class="cursor-pointer mb-8" />
+</div>
+
+<div class="card-body items-center text-center">
+
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+
+<h2 class="card-title cursor-pointer">Single Relax Chair</h2>
+<p class="text-[#11111180]"> <span class="money">110.00</span> TK</p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('Children play','70.00')">
+<div class="px-10 pt-5  pb-1 bg-gray-200 m-5">
+<img src="./image/30106391_m503t0016_15june22_chair_02 1.png" alt="Shoes" class="cursor-pointer mb-8" />
+</div>
+
+<div class="card-body items-center text-center">
+
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+<h2 class="card-title cursor-pointer">Children play</h2>
+<p class="text-[#11111180]"> <span class="money">70.00 TK</span>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+<div class="card  bg-base-100 shadow-lg hover:bg-gray-50 " onclick="cardsOnclick('Flexible Sofa','140.00')">
+<div class="px-10 pt-10  pb-5 bg-gray-200 m-5">
+<img src="./image/31381206_4_3d_grey_sofa_furniture_modern_design_for_interior_room_front_angle 1.png" alt="Shoes" class="cursor-pointer mb-8" />
+</div>
+<div class="card-body items-center text-center">
+
+<div class="rating">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input
+        type="radio"
+        name="rating-2"
+        class="mask mask-star-2 bg-orange-400"
+        checked="checked" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+
+<h2 class="card-title cursor-pointer">Flexible Sofa</h2>
+<p class="text-[#11111180]"> <span class="money">140.00</span> TK</p>
+
+</div>
+</div>
+</article>
+</section>
+
+</main>
+<script src="./index.js"></script>
+
+</body>
+
+</html>
